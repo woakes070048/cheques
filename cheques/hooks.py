@@ -78,6 +78,12 @@ app_license = "MIT"
 #   }
 # }
 
+doc_events = {
+    "Payment Entry": {
+        "after_insert": "cheques.cheques.doctype.cheque.cheque.inactivar_cheque",
+    }
+}
+
 # Scheduled Tasks
 # ---------------
 
