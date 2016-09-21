@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cheques *.css
+recursive-include cheques *.csv
+recursive-include cheques *.html
+recursive-include cheques *.ico
+recursive-include cheques *.js
+recursive-include cheques *.json
+recursive-include cheques *.md
+recursive-include cheques *.png
+recursive-include cheques *.py
+recursive-include cheques *.svg
+recursive-include cheques *.txt
+recursive-exclude cheques *.pyc
